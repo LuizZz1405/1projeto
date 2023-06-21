@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #ff5757;
+}
+
+.titulo{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    text-size-adjust: 50px;
+    bottom: 19px;   
+}
+
+#logo{
+    position: relative;
+    left: 670px;
+}
+
+.fonte-externa{
+    font-family: 'Bagel Fat One', cursive;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: #ff5757;
+    position: relative;
+    bottom: 45px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 200px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#menu-h{
+    list-style-type: none;
+    padding: 0
+}
+
+#menu-h li{
+    display: inline;
+    max-width: 800px ;
+}
+
+#menu-h li a{
+    display: inline;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    position: relative;
+    bottom: 30px;
+    
+}
+
+#menu-h li a:hover{
+    text-decoration: underline;
+}
+
+#container{
+    max-width: 900px;
+    margin: auto;
+  border-style: groove;
+  position: relative;
+  bottom: 150px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#container h2{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    left: 10px;
+}
+
+footer{
+    background-color: rgb(187, 176, 176);
+    text-align: center  ;
+    
+}
